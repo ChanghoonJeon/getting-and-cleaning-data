@@ -5,10 +5,10 @@ First of all, we do merge. Cbind the file X_train.txt, subject_train.txt, y_trai
 That will be like this.
 
 ┌──────────────┐┌─────────────────┐┌──────────────┐
-│.X_train.txt..││subject_train.txt││.y_train.txt..│
+│_X_train.txt__││subject_train.txt││_y_train.txt__│
 └──────────────┘└─────────────────┘└──────────────┘
 ┌──────────────┐┌─────────────────┐┌──────────────┐
-│.X_test.txt...││subject_test.txt.││.y_test.txt...│
+│_X_test.txt___││subject_test.txt_││_y_test.txt___│
 └──────────────┘└─────────────────┘└──────────────┘
 .........↓...............↓.................↓
 .......561var..........1var..............1var
