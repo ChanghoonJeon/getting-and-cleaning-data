@@ -5,13 +5,13 @@ First of all, we do merge. Cbind the file X_train.txt, subject_train.txt, y_trai
 That will be like this.
 
 ┌──────────────┐┌─────────────────┐┌──────────────┐
-│ X_train.txt  ││subject_train.txt││ y_train.txt  │
+│.X_train.txt..││subject_train.txt││.y_train.txt..│
 └──────────────┘└─────────────────┘└──────────────┘
 ┌──────────────┐┌─────────────────┐┌──────────────┐
-│ X_test.txt   ││subject_test.txt ││ y_test.txt   │
+│.X_test.txt...││subject_test.txt.││.y_test.txt...│
 └──────────────┘└─────────────────┘└──────────────┘
-        ↓               ↓                 ↓
-      561var           1var             1var
+.........↓...............↓.................↓
+.......561var..........1var..............1var
 
 Get names of the variables from features.txt and name the variables.
 
