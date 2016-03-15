@@ -3,6 +3,7 @@
 First of all, we do merge. Cbind the file X_train.txt, subject_train.txt, y_train.txt and X_test.txt, subject_test.txt, y_test.txt for independant data set. And rbind these two. 
 
 That will be like this.
+
 ┌──────────────┐┌─────────────────┐┌──────────────┐
 │ X_train.txt  ││subject_train.txt││ y_train.txt  │
 └──────────────┘└─────────────────┘└──────────────┘
