@@ -1,3 +1,5 @@
+run_analysis <- function(){
+
 library(dplyr)
 library(tidyr)
 
@@ -69,9 +71,9 @@ names(filtered_data) <- filtered_feature_names
 # step 5 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 # ------------------------------------------------------------------------------
 tidy_data <- tbl_df(filtered_data) %>%
-  group_by('subject', 'activity') %>%
+  group_by(subject, activity) %>%
   summarise_each(funs(mean)) %>%
   gather(measurement, mean, -activity, -subject)
 
-# Save the data into the file
-write.table(tidy_data, file="tidy_data.txt", row.name=FALSE)
+tidy_data
+}
